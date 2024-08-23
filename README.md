@@ -9,8 +9,8 @@
 ## Features
 
 - **Steganography:** Embed content within PNG files using LSB (least significant bit).
-- **Encryption:** Uses AES-256 encryption for protecting the data.
-- **Key derivation:** Uses SHA-256 for deriving keys from your password.
+- **Encryption:** Uses AES-256-GCM encryption for protecting the data, providing confidentiality and integrity.
+- **Key derivation:** Uses Argon2 for deriving keys from your password, making it resistant to brute-force attacks.
 
 ## Usage
 
@@ -35,7 +35,7 @@ Enter the password used during embedding to decrypt and extract the content from
 ## Roadmap
 
 - [x] **PNG Steganography:** Embed data within PNG images.
-- [x] **Encryption:** Secure encryption with AES-256 and SHA-256.
+- [x] **Encryption:** Secure encryption with AES-256-GCM and Argon2.
 - [ ] **GUI:** Add a graphical user interface for easier usage.
 - [ ] **Backup functionality:** Implement features to securely back up images.
 

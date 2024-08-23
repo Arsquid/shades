@@ -4,7 +4,7 @@
 // Usage - Select a PNG file and embed content in it, secured with a password.
 // This application uses AES 256 for encryption and sha256 for key derivation.
 
-mod encryption;
+mod cryptography;
 mod steganography;
 mod tests;
 

@@ -1,6 +1,6 @@
 // src/steganography.rs
 
-use crate::encryption::{decrypt_data, encrypt_data};
+use crate::cryptography::{decrypt_data, encrypt_data};
 use image::{GenericImage, GenericImageView, Rgba};
 use std::error::Error;
 
