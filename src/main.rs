@@ -2,7 +2,7 @@
 
 // Shades, a simple and lightweight command line steganography-based password manager in rust.
 // Usage - Select a PNG file and embed content in it, secured with a password.
-// This application uses AES 256 for encryption and sha256 for key derivation.
+// This application uses AES-256-Gcm for encryption and Argon2 for key derivation.
 
 mod cryptography;
 mod steganography;
