@@ -24,7 +24,7 @@ Run the binary with no arguments to launch the graphical user interface.
 
 ### CLI mode
 
-Run the binary with the '--cli' flag
+Run the binary with the `--cli` flag
 
 #### Embed content
 
