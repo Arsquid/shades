@@ -54,7 +54,7 @@ mod tests {
 
     // Test for combined encryption and embedding / extraction and decryption
     #[test]
-    fn png_test_cryptography_embedding() {
+    fn png_test_cryptography_embed_extract() {
         let test_image_path: &str = "test02.png";
 
         let img: RgbImage = ImageBuffer::from_fn(100, 100, |_, _| image::Rgb([255, 255, 255]));
